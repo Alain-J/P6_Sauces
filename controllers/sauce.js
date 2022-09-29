@@ -95,6 +95,4 @@ exports.likeSauce = (req , res, nest) => {
         .catch(error => res.status(401).json({ error }));
     }
 
-    console.log(req.body);
-    
 }
